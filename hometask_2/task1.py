@@ -13,4 +13,3 @@ sum = sum + a
 
 
 print(sum)
-print(0.56*100)

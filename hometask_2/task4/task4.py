@@ -1,7 +1,10 @@
 a = int(input('Введите число: '))
 NN = []
 for i in range(-a,a,1):
-    NN.append
+    NN.append(i)
 
-sum = int(open('file.txt').read(1)) * int(open('file.txt').read(1))
+open = open('/Users/aleksejmeserakov/Desktop/Питон GB/hometask_2/task4/file.txt')
+f = int(open.read(1))
+s = int(open.read(2))
+sum = NN[f] * NN[s]
 print(sum)
